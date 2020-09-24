@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gameFragment"
+        android:icon="@drawable/ic_game"
+        android:title="@string/menu_game" />
+    <item
+        android:id="@+id/exerciseFragment"
+        android:icon="@drawable/ic_exercise"
+        android:title="@string/menu_exercise" />
+    <item
+        android:id="@+id/communityFragment"
+        android:icon="@drawable/ic_community"
+        android:title="@string/menu_community" />
+    <item
+        android:id="@+id/shoppingFragment"
+        android:icon="@drawable/ic_shopping"
+        android:title="@string/menu_shopping" />
+    <item
+        android:id="@+id/personFragment"
+        android:icon="@drawable/ic_person"
+        android:title="@string/menu_person" />
+</menu>
