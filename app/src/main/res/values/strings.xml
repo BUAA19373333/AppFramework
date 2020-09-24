@@ -5,4 +5,6 @@
     <string name="menu_community">Community</string>
     <string name="menu_shopping">Shopping</string>
     <string name="menu_person">Person</string>
+    <string name="button_game_enter">进入游戏</string>
+    <string name="wait_for_open">暂未开放\n敬请期待</string>
 </resources>

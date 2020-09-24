@@ -2,6 +2,7 @@ package com.example.appframework.ui.game;
 
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,7 +13,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.appframework.MainActivity;
 import com.example.appframework.R;
+import com.example.appframework.game.GameMainActivity;
 
 public class GameFragment extends Fragment {
 
@@ -33,6 +36,14 @@ public class GameFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         mViewModel = ViewModelProviders.of(this).get(GameViewModel.class);
         // TODO: Use the ViewModel
+
+        getView().findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), GameMainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
