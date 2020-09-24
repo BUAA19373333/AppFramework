@@ -22,7 +22,7 @@ public class OpeningActivity extends AppCompatActivity {
         }
         welcomeImg = findViewById(R.id.wrap);
         AlphaAnimation anima = new AlphaAnimation(0f, 1.0f);
-        anima.setDuration(1500);
+        anima.setDuration(500);
         anima.setRepeatMode(AlphaAnimation.REVERSE);
         anima.setRepeatCount(1);
         anima.setFillAfter(true);
