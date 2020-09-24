@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.appframework.ui.game.GameFragment"
+        android:label="@string/menu_game"
+        tools:layout="@layout/game_fragment" />
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.appframework.ui.exercise.ExerciseFragment"
+        android:label="@string/menu_exercise"
+        tools:layout="@layout/exercise_fragment" />
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.example.appframework.ui.community.CommunityFragment"
+        android:label="@string/menu_community"
+        tools:layout="@layout/community_fragment" />
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.example.appframework.ui.shopping.ShoppingFragment"
+        android:label="@string/menu_shopping"
+        tools:layout="@layout/shopping_fragment" />
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="com.example.appframework.ui.person.PersonFragment"
+        android:label="@string/menu_person"
+        tools:layout="@layout/person_fragment" />
+</navigation>
